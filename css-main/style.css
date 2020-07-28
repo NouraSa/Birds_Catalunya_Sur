@@ -1,0 +1,199 @@
+*{
+    font-family: arial;
+    margin: 0;
+}
+body {
+    width: 100%;
+    margin: 0;
+    background-color: #f9dcc4;
+}
+/***************************************************/
+header {
+    margin: 0 auto;
+    background-color: #9d8189;
+    color: #f0f3bd;
+    display: block;
+    text-transform: uppercase;
+}
+
+header h1 {
+    margin-left: 15px;
+    font-family:'Ranchers', cursive;
+    letter-spacing: 3px;
+}
+/******** Navigation bar styles *******************/
+.wrapper {
+    width: 100%;
+    margin:0 auto;
+    height: 35px;
+    margin-top: 0;
+    padding-top: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #9d8189;
+    font-family:     font-family:'Ranchers', cursive;
+    letter-spacing: 3px;
+}
+nav ul {
+    list-style: none;
+    padding-left: 10px;
+    margin: 0;
+    display: flex;
+}
+nav a {
+    text-decoration: none ;
+    color: #f0f3bd;
+    display: block;
+    padding: 10px;
+}
+nav a:hover {
+    border-radius: 14px;
+    background-color: #D4E6F1;
+    color: #9d8189;
+}
+nav li {
+    flex: 1 1 0;
+    justify-content: space-around;
+    border: orange
+}
+@media screen and (min-width: 760px) {
+    nav ul {
+    display: flex;
+    }
+    .sidebar {
+    min-width: 400px;
+    }
+}
+
+/******** Main body*******/
+article {
+    margin: 15px;
+    color: #028090;
+    font-family: helvetica;
+    line-height: 1.5;
+    text-align: justify;
+}
+.container {
+    mmin-width: 95%;
+}
+
+.article-container {
+    display: flex;
+}
+
+/*************************INtro****************/
+.intro {
+    flex: 2;
+    font-size: 15px; 
+    background-image: url(images/flying\ flamenco.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    opacity: 0.8;
+}
+.intro article {
+    display: block;
+    margin-right: 300px;
+    margin-left: 8px;
+    margin-top: 150px;
+    height: auto;
+    padding: 50px;
+    color: #f0f3bd;
+    font-weight: bold;
+}
+.intro article p{
+    display: block;
+    margin-left: 120px;
+    padding-left: 2px;
+    margin-top: 280px;
+    text-align: start;
+}
+
+.intro h2 {
+    font-size: 40px;
+    font-family:'Ranchers', cursive;
+    letter-spacing: 3px;
+    margin-top: 0px;
+}
+
+/**********Sidebar*************************/
+.sidebar {
+    display: inline-block;
+    flex: 1;
+    background-color: #EBF5FB;
+    color: #7FB3D5;
+}
+
+.sidebar-article {
+    border-left: solid #9d8189;
+    display: grid;
+    color: #9d8189;
+}
+
+.sidebar-article article{
+    margin: 1px;
+    padding: 25px;
+    margin: 8px;
+    display: block;
+} 
+
+.sidebar-article p {
+    font-size: 13px;
+    max-width: 54%;
+    height: auto;
+    padding: 12px;
+    right; 12px;
+    float: left;
+}
+
+.sidebar-article img {
+    float: right;
+    min-width: 40%;
+    height: 125px;
+}
+
+.sidebar-article h2 {
+    font-size: 25px;
+    font-family:'Ranchers', cursive;
+    letter-spacing: 3px;
+    display: block;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.sidebar-article h3 {
+    font-size: 20px;
+    font-family:'Ranchers', cursive;
+    letter-spacing: 4px;
+    display: block;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+/**********Footer Styles*********/
+footer {
+    display: flex;
+    height: 45px;
+    min-width: 100%;
+    background-color: #9d8189;
+}
+footer p{
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 6px;
+    color: #772e25;
+    font-family:font-family:'Ranchers', cursive;
+    letter-spacing: 3px;
+;
+}
+footer a{
+    display: inline-block;
+    margin-left: 16px;
+    margin-top: 5px;
+    color: #772e25;
+    font-family:'Ranchers', cursive;
+    letter-spacing: 3px;
+    text-decoration: none;
+}

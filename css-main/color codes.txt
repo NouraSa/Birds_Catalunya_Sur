@@ -1,0 +1,8 @@
+Beige   f0f3bd
+Intro   02c39a
+sidebar 00a896
+Fonts 1 05668d
+Fonts 2 028090
+
+
+header background #98c1d9
